@@ -333,12 +333,14 @@ header .follow a:hover{
 }
 
 .service .box-container{
-    display:contents;
-    flex-wrap: nowrap;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .service .box-container .box{
     flex:1 1 30rem;
+    max-width: 40rem;
     text-align: center;
     padding:5rem;
     background:#fff;
